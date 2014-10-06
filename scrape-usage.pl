@@ -21,9 +21,9 @@ $mech->submit_form(
     fields    => {
         username  => $username,
         password  => $password,
-        target    => 'http://www.cox.net/cci/internettools',
-        onsuccess => 'http://www.cox.net/cci/internettools',
-        onfailure => 'http://idm.west.cox.net/coxlogin/ui/internettools',
+        target    => 'http://www.cox.com/myconnection/home.cox',
+        onsuccess => 'https://myaccount.cox.net/internettools/datausage/usage.cox'
+        onfailure => 'http:/idm.east.cox.net/coxlogin/ui/internettools',
     }
 );
 
